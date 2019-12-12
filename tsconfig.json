@@ -22,5 +22,11 @@
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
+  },
+  "baseUrl":"./src",
+  "paths": {
+    "shared/*": [
+      "app/shared/*"
+    ]
   }
 }

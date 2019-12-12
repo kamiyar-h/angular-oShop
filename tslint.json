@@ -1,6 +1,7 @@
 {
   "extends": "tslint:recommended",
   "rules": {
+    "curly": false,
     "array-type": false,
     "arrow-parens": false,
     "deprecation": {
@@ -18,7 +19,7 @@
     "component-selector": [
       true,
       "element",
-      "app",
+      null,
       "kebab-case"
     ],
     "import-blacklist": [
