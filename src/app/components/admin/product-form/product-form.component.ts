@@ -12,7 +12,7 @@ import {Product} from '../../../shared/models/product';
 })
 export class ProductFormComponent {
   categories$;
-  product: Product;
+  product: Product = new Product();
   id;
 
   constructor(
